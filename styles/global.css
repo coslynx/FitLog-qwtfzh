@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom FitTrack Colors */
+body {
+  @apply bg-fittrack-light;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold text-fittrack-primary;
+}
+
+a {
+  @apply text-fittrack-primary hover:text-fittrack-secondary;
+}
+
+/* Custom Styles for Buttons */
+.bg-fittrack-primary {
+  @apply bg-fittrack-primary hover:bg-fittrack-secondary;
+}
+
+.bg-fittrack-secondary {
+  @apply bg-fittrack-secondary hover:bg-fittrack-primary;
+}
+
+.bg-fittrack-tertiary {
+  @apply bg-fittrack-tertiary hover:bg-fittrack-secondary;
+}
+
+/* Custom Styles for Forms */
+input,
+textarea,
+select {
+  @apply border rounded w-full px-3 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50;
+}
+
+.bg-fittrack-light {
+  @apply bg-fittrack-light;
+}
