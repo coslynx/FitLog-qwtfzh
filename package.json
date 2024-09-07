@@ -1,0 +1,56 @@
+{
+  "name": "FitTrack-qwtfzh",
+  "version": "1.0.0",
+  "description": "A collaborative fitness tracker MVP that empowers users to achieve their goals together.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coslynx/FitTrack-qwtfzh.git"
+  },
+  "author": "CosLynxAI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coslynx/FitTrack-qwtfzh/issues"
+  },
+  "homepage": "https://github.com/coslynx/FitTrack-qwtfzh#readme",
+  "dependencies": {
+    "@sentry/next.js": "^7.27.0",
+    "axios": "^1.7.7",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.1",
+    "next": "^14.2.8",
+    "next-auth": "^4.24.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "swagger-ui-express": "^5.0.1",
+    "tailwindcss": "^3.4.10",
+    "zustand": "^4.5.5",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "jest": "^29.7.0",
+    "cypress": "^13.14.2",
+    "react-testing-library": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
